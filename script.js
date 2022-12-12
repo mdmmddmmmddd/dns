@@ -27,11 +27,11 @@ let give_items = () => {
 give_items();
 
 let upload_items = () => {
-    let x = '<img src="https://mobimg.b-cdn.net/v3/fetch/c4/c493aac67877288476b0fc52d55f55cf.jpeg" style="margin: 5px; width: 25%; border-radius: 5px;">';
+    let x = '<img src="https://sun9-west.userapi.com/sun9-55/s/v1/ig2/nCSo2YvK-8Kst9NuE_3_kTQC3JNlt65vIVOneYSE17mMz1Q9qXQ2eMmKEuyw_UW_LhN4LRROAeW6IaIiTAqx3OOt.jpg?size=768x768&quality=96&type=album" style="margin: 5px; width: 25%; border-radius: 5px;">';
     let item = '<div style="display: flex; flex-wrap: wrap; flex-direction: row; padding: 20px; margin-bottom: 20px">';
     for (let i = 0; i < namelist2.length; i++) {
-        item += '<div style="width: 31%; height: auto; border: 2px; padding: 15px">'
-        item += '<img src="https://mobimg.b-cdn.net/v3/fetch/c4/c493aac67877288476b0fc52d55f55cf.jpeg" style="margin: 5px; width: 31%; border-radius: 5px;"></img>';
+        item += '<div style="width: 50%; height: auto; border: 2px; padding: 15px">'
+        item += '<img src="https://sun9-west.userapi.com/sun9-55/s/v1/ig2/nCSo2YvK-8Kst9NuE_3_kTQC3JNlt65vIVOneYSE17mMz1Q9qXQ2eMmKEuyw_UW_LhN4LRROAeW6IaIiTAqx3OOt.jpg?size=768x768&quality=96&type=album" style="margin: 5px; width: 31%; border-radius: 5px;"></img>';
         item += '<br>' + '<b>' + namelist2[i] + '</b>';
         item += '<br>' + pricelist2[i];
         item += '<div class="row button"><a href="'+ hreflist1[i] + '"Выбрать"</a></div>';
